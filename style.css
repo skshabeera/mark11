@@ -1,0 +1,55 @@
+:root{
+    --primary-dark:blue
+    --primary-green:green;
+}
+body{
+    background-color:orangered;
+    color:whitesmoke;
+}
+h1{
+    text-align: center;
+}
+.container{
+    width:50% ;
+    margin: auto;
+    font-size: xx-large; 
+}
+input,label{
+    display: block;
+    font-size: large;
+
+
+
+}
+
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+    
+    
+
+    
+    
+}
+#check-number{
+    display: block;
+    margin-top:1 rem ;
+    margin: auto;
+    background-color:royalblue;
+    color:var(--primary-color);
+    border-color:black;
+    border-width:medium;
+    padding: 00.5rem;
+    border-radius:0.3rem;
+    font-size: large;
+    
+
+
+}
+#check-number:hover{
+    background-color:indigo;
+}
