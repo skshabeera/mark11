@@ -3,8 +3,8 @@
     --primary-green:green;
 }
 body{
-    background-color:orangered;
-    color:whitesmoke;
+    background-color:lightpink;
+    color:black;
 }
 h1{
     text-align: center;
@@ -53,5 +53,27 @@ input{
 #check-number:hover{
     background-color:indigo;
 }
+list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0rem;
+}
+footer {
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+} 
+
+p{
+   color:blueviolet; 
+   font-size: x-large;
+}
+
 
 
